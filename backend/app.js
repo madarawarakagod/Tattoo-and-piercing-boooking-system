@@ -3,7 +3,7 @@ import {config} from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
-import { dbConnection } from "./database/dbConnection";
+import { dbConnection } from "./database/dbConnection.js";
 
 const app = express();
 config({path: "./config/config.env"});
