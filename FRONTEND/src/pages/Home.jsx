@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import Hero from "../components/Hero";
 import Biography from "../components/Biography";
 import MessageForm from "../components/MessageForm";
@@ -11,9 +11,9 @@ const Home = () => {
         title={
           "Welcome to ZeeCare Medical Institute | Your Trusted Healthcare Provider"
         }
-        imageUrl={"/hero.png"}
+        imageUrl={"/1.jpg"}
       />
-      <Biography imageUrl={"/about.png"} />
+      <Biography imageUrl={"/2.jpg"} />
       <Departments />
       <MessageForm />
     </>
