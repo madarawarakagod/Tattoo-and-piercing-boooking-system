@@ -9,39 +9,39 @@ const Departments = () => {
   const departmentsArray = [
     {
       name: "Tattoos and Permanent Make-Up",
-      imageUrl: "/departments/6.jpg",
+      imageUrl: "/mackup2.jpg",
     },
     {
       name: "Body Piercing",
-      imageUrl: "/departments/ortho.jpg",
+      imageUrl: "/body.jpg",
     },
     {
       name: "Temporary Tattoos",
-      imageUrl: "/departments/cardio.jpg",
+      imageUrl: "/temp2.jpg",
     },
     {
       name: "Tattoo Removal",
-      imageUrl: "/departments/neuro.jpg",
+      imageUrl: "/tattoo remove.jpg",
     },
     {
       name: "Piercing Removal",
-      imageUrl: "/departments/onco.jpg",
+      imageUrl: "/piercingRomove.jpg",
     },
     {
       name: "Dotwork",
-      imageUrl: "/departments/radio.jpg",
+      imageUrl: "/dot.jpg",
     },
     {
       name: "Blackwork:",
-      imageUrl: "/departments/therapy.jpg",
+      imageUrl: "/black.jpg",
     },
     {
       name: "Script/Lettering",
-      imageUrl: "/departments/derma.jpg",
+      imageUrl: "/letter.jpg",
     },
     {
       name: "Realism",
-      imageUrl: "/departments/ent.jpg",
+      imageUrl: "/realism.jpg",
     },
   ];
 
