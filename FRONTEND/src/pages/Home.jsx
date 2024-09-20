@@ -9,12 +9,14 @@ const Home = () => {
     <>
     <Hero
       title={
-        "welcome to zeecare "
+        "welcome to SkinCraft studio  Tattoo & Piercing  "
+     
+       
       }
-      imageurl={"/3.jpg"}
+      imageurl={"/.jpg"}
       />
         
-      <Biography imageUrl={"/5.jpg"}/>
+      <Biography imageUrl={"/.jpg"}/>
       <Departments />
       <MessageForm />
  </>

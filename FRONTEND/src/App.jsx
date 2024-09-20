@@ -5,6 +5,9 @@ import Home from "./Pages/Home";
 import Appointment from "./Pages/Appointment";
 import Register from "./pages/Register";
 import AboutUs from "./Pages/AboutUs";
+import Report from "./Pages/Report";
+import Review from "./pages/Review";
+import GiftCertificate from "./pages/GiftCertificate";
 import Login from "./Pages/Login";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -44,7 +47,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/giftCertificate" element={<GiftCertificate />} />
+          <Route path="/review" element={<Review />} />
+          <Route path="/report" element={<Report />} />
           <Route path="/login" element={<Login />} />
        
       </Routes>

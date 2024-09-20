@@ -2,42 +2,45 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+
+
+
 const Departments = () => {
   const departmentsArray = [
     {
-      name: "Pediatrics",
-      imageUrl: "/departments/pedia.jpg",
+      name: "Tattoos and Permanent Make-Up",
+      imageUrl: "/departments/6.jpg",
     },
     {
-      name: "Orthopedics",
+      name: "Body Piercing",
       imageUrl: "/departments/ortho.jpg",
     },
     {
-      name: "Cardiology",
+      name: "Temporary Tattoos",
       imageUrl: "/departments/cardio.jpg",
     },
     {
-      name: "Neurology",
+      name: "Tattoo Removal",
       imageUrl: "/departments/neuro.jpg",
     },
     {
-      name: "Oncology",
+      name: "Piercing Removal",
       imageUrl: "/departments/onco.jpg",
     },
     {
-      name: "Radiology",
+      name: "Dotwork",
       imageUrl: "/departments/radio.jpg",
     },
     {
-      name: "Physical Therapy",
+      name: "Blackwork:",
       imageUrl: "/departments/therapy.jpg",
     },
     {
-      name: "Dermatology",
+      name: "Script/Lettering",
       imageUrl: "/departments/derma.jpg",
     },
     {
-      name: "ENT",
+      name: "Realism",
       imageUrl: "/departments/ent.jpg",
     },
   ];
@@ -68,7 +71,7 @@ const Departments = () => {
   return (
     <>
       <div className="container departments">
-        <h2>Departments</h2>
+        <h2>Category</h2>
         <Carousel
           responsive={responsive}
           removeArrowOnDeviceType={[

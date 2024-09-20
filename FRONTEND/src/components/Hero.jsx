@@ -7,18 +7,13 @@ const Hero = ({ title, imageUrl }) => {
         <div className="banner">
           <h1>{title}</h1>
           <p>
-            ZeeCare Medical Institute is a state-of-the-art facility dedicated
-            to providing comprehensive healthcare services with compassion and
-            expertise. Our team of skilled professionals is committed to
-            delivering personalized care tailored to each patient's needs. At
-            ZeeCare, we prioritize your well-being, ensuring a harmonious
-            journey towards optimal health and wellness.
+          At SkinCraft Studio, we believe that your body is a canvas waiting to tell a story. Whether you're looking for a bold new tattoo or a stylish piercing, our team of skilled artists is here to bring your vision to life. With a passion for creativity and a commitment to safety, we offer personalized services in a welcoming environment, ensuring each experience is as unique as you are..
           </p>
         </div>
         <div className="banner">
-          <img src={imageUrl} alt="hero" className="animated-image" />
+          <img src="Home.jpg" alt="hero" className="animated-image" />
           <span>
-            <img src="4.jpg" alt="vector" />
+            <img src=".jpg" alt="vector" />
           </span>
         </div>
       </div>
