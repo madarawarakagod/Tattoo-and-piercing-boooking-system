@@ -31,7 +31,7 @@ const Doctors = () => {
       <div className="banner">
         {doctors && doctors.length > 0 ? (
           doctors.map((element) => {
-            return ( 
+            return (
               <div className="card">
                 <img
                   src={element.docAvatar && element.docAvatar.url}
